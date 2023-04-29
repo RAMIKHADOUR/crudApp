@@ -36,3 +36,14 @@ export function Navbar() {
     </nav>
   );
 }
+
+export function Footer(){
+
+  return(
+
+    <div className="container p-3 mt-5 border-top">
+ <small className="d-blocktext-muted text-center"> &copy; - AchetPhone </small>
+</div>
+
+  );
+}
